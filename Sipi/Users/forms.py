@@ -18,9 +18,9 @@ class UserSignupForm(SignupForm):
     )
 
     field_order = [
+        "username",
         "first_name",
         "password1",
-        "username",
         "password2",
         "email",
     ]
@@ -31,7 +31,7 @@ class UserSignupForm(SignupForm):
         super().__init__(*args, **kwargs)
 
         self.fields["email"].label = "Email"
-        self.fields["email"].required = True
+        self.fields["email"].required = False
         self.fields["email"].widget.attrs.update({"placeholder": "mail@gmail.com"})
 
         self.fields["username"].label = "Login"

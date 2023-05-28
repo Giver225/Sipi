@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Sipi'
-copyright = '2023, Goverd'
-author = 'Goverd'
+copyright = '2023, Sipi Team'
+author = 'Sipi Team'
 release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -19,7 +19,7 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 
-
+language = 'ru'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
